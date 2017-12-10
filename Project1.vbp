@@ -11,7 +11,6 @@ Form=Form1.frm
 Reference=*\G{00000200-0000-0010-8000-00AA006D2EA4}#2.0#0#C:\Program Files (x86)\Common Files\System\ado\msado20.tlb#Microsoft ActiveX Data Objects 2.0 Library
 Startup="Form1"
 ExeName32="Project1.exe"
-Path32=".."
 Command32=""
 Name="Project1"
 HelpContextID="0"

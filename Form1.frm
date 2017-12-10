@@ -183,7 +183,7 @@ Begin VB.Form Form1
       _ExtentX        =   2117
       _ExtentY        =   714
       _Version        =   393216
-      Format          =   109576193
+      Format          =   96927745
       CurrentDate     =   43078
    End
    Begin VB.TextBox Text2 
@@ -436,7 +436,7 @@ rs.Open "Select * from ProfileTBL", con, adOpenDynamic, adLockPessimistic
 End Sub
 
 Private Sub Form_Load()
-con.Open "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Database Folder\ProfileDB.mdb;Persist Security Info=False"
+con.Open "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=G:\Database Folder\ProfileDB.mdb;Persist Security Info=False"
 rs.Open "Select * from ProfileTBL", con, adOpenDynamic, adLockPessimistic
 
 Combo1.AddItem "Computer Science"
